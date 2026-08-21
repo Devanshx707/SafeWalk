@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SafeWalk — Midnight Road Safety</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SafeWalk</h1>
+      <p>Road Safety and Security at Midnight</p>
+    </header>
+
+    <main>
+      <section>
+        <h2>Night Safety Dashboard</h2>
+        <ul>
+          <li>Route Safety Status: <strong id="routeStatus">Moderate</strong></li>
+          <li>Nearby Risk Zones: <strong>2</strong></li>
+          <li>Street Lighting Coverage: <strong>Low</strong></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Emergency</h2>
+        <button id="alertButton" type="button">Send Emergency Alert</button>
+        <p id="alertMessage" aria-live="polite"></p>
+      </section>
+
+      <section>
+        <h2>Midnight Safety Tips</h2>
+        <button id="tipButton" type="button">Show Safety Tip</button>
+        <p id="tipMessage" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
