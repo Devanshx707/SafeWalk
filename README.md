@@ -12,9 +12,7 @@ People traveling late at night may face unsafe routes, low visibility areas, and
 - Share simple late-night safety tips.
 
 ## Project Template Structure
-- `index.html` — basic app layout and sections.
-- `styles.css` — simple responsive styling.
-- `script.js` — starter interactions for alerts and safety tips.
+
 
 ## Next Steps
 - Integrate maps and geolocation APIs.
